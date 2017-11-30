@@ -115,7 +115,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera \
-    Snap
+    SnapdragonCamera
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
@@ -250,6 +250,10 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
     android.system.net.netd@1.0 \
     libandroid_net
+
+# OMNI Charger Images
+PRODUCT_PACKAGES += \
+    omni_charger_res_images
 
 # OMX
 PRODUCT_PACKAGES += \
